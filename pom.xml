@@ -28,6 +28,12 @@
             <version>8.0.23</version>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>com.googlecode.owasp-java-html-sanitizer</groupId>
+            <artifactId>owasp-java-html-sanitizer</artifactId>
+            <version>20191001.1</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.projectlombok</groupId>

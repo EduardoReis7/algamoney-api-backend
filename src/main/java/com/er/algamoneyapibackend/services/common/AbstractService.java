@@ -8,7 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 import java.util.Optional;
 
-@Transactional(readOnly = true)
 public abstract class AbstractService<T> {
 
     protected abstract JpaRepository<T, Long> getRepository();
@@ -35,7 +34,7 @@ public abstract class AbstractService<T> {
         this.getRepository().deleteById(id);
     }
 
-    public void deleteAll() {
+    public void excluirTudo() {
         this.getRepository().deleteAll();
     }
 }
