@@ -33,8 +33,12 @@
             <artifactId>owasp-java-html-sanitizer</artifactId>
             <version>20191001.1</version>
         </dependency>
-
-
+        <dependency>
+            <groupId>org.javamoney</groupId>
+            <artifactId>moneta</artifactId>
+            <version>1.4.2</version>
+            <type>pom</type>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
